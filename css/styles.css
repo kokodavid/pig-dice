@@ -1,0 +1,50 @@
+.column {
+  float: left;
+
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+h1{
+  color: red;
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
