@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+    <title>game</title>
+  </head>
+  <body>
+ <h1>LETS GAME</h1>
+
+
+
+
+        <button id="restart" class="btn-info btn">RESTART GAME</button>
+
+        <h1>Enter Player Name</h1>
+          <form id="1st-player">
+            <div class="form-group">
+              <label for="player1Name">1st Player:</label>
+              <input required class="player1Name form-control" type="text">
+            </div>
+          </form>
+          <form id="player-2">
+            <div class="form-group">
+              <label for="player2Name">2nd Player:</label>
+              <input required class="player2Name form-control" type="text">
+            </div>
+          </form>
+          <button id="start" class="btn-info btn">READY</button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p class="play"><b>Let's Play</b></p>
+          <h2>1st Player: <span id="player1Name"><span></h2>
+          <div id="the-button">
+            <button id="roll-die-button-1" class="btn-info btn">Throw</button>
+            <button id="hold-button-1" class="btn-info btn">Stop</button>
+          </div>
+          <br>
+          <h3>Throw: <span id="die-roll-1"></span></h3>
+          <p>Score: <span id="round-score-1"></span></p>
+          <h2>Total Score: <span id="total-score-1"></span></h2>
+          <br>
+          <br>
+        </div>
+        <br>
+        <br>
+        <div class="col-md-6">
+          <h2>2nd Player: <span id="player2Name"><span></h2>
+            <div id="the-button">
+              <button id="roll-die-button-2" class="btn-info btn">Throw</button>
+              <button id="hold-button-2" class="btn-info btn">Stop</button>
+            </div>
+            <br>
+            <h3>Throw: <span id="die-roll-2"></span></h3>
+            <p>Score: <span id="round-score-2"></span></p>
+             <h2>Total Score: <span id="total-score-2"></span></h2>
+            <br>
+            <br>
+        </div>
+      </div>
+
+  </body>
+</html>
